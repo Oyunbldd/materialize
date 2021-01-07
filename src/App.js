@@ -11,6 +11,9 @@ import Typography from './pages/typography';
 import AButton from './pages/abutton'
 import Navbar from './pages/navbar'
 import Collection from './pages/collection'
+import Grid from './pages/grid'
+import Cards from './pages/cards'
+import Footer from './pages/footer'
 function App() {
   return (
     <Router>
@@ -36,6 +39,15 @@ function App() {
         </Route>
         <Route path="/Collection" exact>
           <Collection/>
+        </Route>
+        <Route path="/Grid" exact>
+          <Grid/>
+        </Route>
+        <Route path="/Cards" exact>
+          <Cards/>
+        </Route>
+        <Route path="/Footer" exact>
+          <Footer/>
         </Route>
       </Switch>
     </Router>

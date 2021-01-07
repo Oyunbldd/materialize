@@ -11,7 +11,6 @@ export default function Collection(){
      });
     },[drop])
     return(
-        
         <div class='container'>
          <h3 class='center-align'>Collections & Badges</h3>
          <FButton/>
@@ -75,12 +74,11 @@ export default function Collection(){
             </ul>
             <br></br>
             <a class='dropdown-trigger btn text-white center-align' href='#' data-target='dropdown1' ref={drop} style={{width:'200px'}} >Dropdown<i className="material-icons right">arrow_drop_down</i></a>
-
-  <ul id='dropdown1' class='dropdown-content'>
-  <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!">four</a></li>
+           <ul id='dropdown1' class='dropdown-content'>
+           <li><a href="#!">one</a></li>
+           <li><a href="#!">two</a></li>
+          <li><a href="#!">three</a></li>
+          <li><a href="#!">four</a></li>
  
 
   </ul>

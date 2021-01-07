@@ -10,14 +10,16 @@ export default function FButton(){
      });
     },[drop])
     return(
-        <div class='container center-align'>
-<a class="waves-effect waves-light btn btn-large  blue" style={{marginLeft:'0px',height:'60px',width:'150px'}}>CSS1</a>
+        <div class='container row '>
+       
+          
+<a class="waves-effect waves-light btn btn-large  blue col  col-content s6 l3" >CSS1</a>
 
-<a class="waves-effect waves-light btn btn-large green "style={{marginLeft:'90px',height:'60px',width:'150px'}} >CSS2</a>
+<a class="waves-effect waves-light btn btn-large green   col s6 l3" >CSS2</a>
 
-<a class="waves-effect waves-light btn btn-large  black-text yellow" style={{marginLeft:'90px',height:'60px',width:'150px'}}>JS1</a>
+<a class="waves-effect waves-light btn btn-large  black-text yellow  col s6 l3">JS1</a>
 
-<a class='dropdown-trigger btn red text-white center-align' href='#' data-target='dropdown1' ref={drop} style={{marginLeft:'90px',width:'150px',height:'60px'}} >Drop Me!</a>
+<a class='dropdown-trigger btn btn-large  red text-white  col s6 l3'href='#' data-target='dropdown1' ref={drop} >Drop Me!</a>
 
   <ul id='dropdown1' class='dropdown-content'>
   <li><a href="#!">one</a></li>
@@ -28,6 +30,7 @@ export default function FButton(){
 
   </ul>
 {/* <a class="waves-effect waves-light btn btn-large  black-text red" style={{marginLeft:'90px',height:'60px',width:'150px'}}>JS2</a> */}
+
         </div>
     )
 }

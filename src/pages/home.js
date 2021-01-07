@@ -23,6 +23,15 @@ export default function Home() {
                 <li>
                     <Link to='/Collection'>Collection & Budget</Link>
                 </li>
+                <li>
+                    <Link to='/Grid'>Grid</Link>
+                </li>
+                <li>
+                    <Link to='/Cards'>Cards</Link>
+                </li>
+                <li>
+                    <Link to='/Footer'>Footer</Link>
+                </li>
             </ul>
         </div>
     )
