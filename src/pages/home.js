@@ -32,6 +32,18 @@ export default function Home() {
                 <li>
                     <Link to='/Footer'>Footer</Link>
                 </li>
+                <li>
+                    <Link to='/Input'>Input</Link>
+                </li>
+                <li>
+                    <Link to='/Fancy'>Fancy</Link>
+                </li>
+                <li>
+                    <Link to='/Chips'>Chips</Link>
+                </li>
+                <li>
+                    <Link to='/Carousel'>Carousel</Link>
+                </li>
             </ul>
         </div>
     )

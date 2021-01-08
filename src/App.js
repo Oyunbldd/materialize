@@ -14,6 +14,10 @@ import Collection from './pages/collection'
 import Grid from './pages/grid'
 import Cards from './pages/cards'
 import Footer from './pages/footer'
+import Input from './pages/input'
+import Fancy from './pages/fancy'
+import Chips from './pages/chips'
+import Carousel from './carousel'
 function App() {
   return (
     <Router>
@@ -48,6 +52,18 @@ function App() {
         </Route>
         <Route path="/Footer" exact>
           <Footer/>
+        </Route>
+        <Route path="/Input" exact>
+          <Input/>
+        </Route>
+        <Route path="/Fancy" exact>
+          <Fancy/>
+        </Route>
+        <Route path="/Chips" exact>
+          <Chips/>
+        </Route>
+        <Route path="/Carousel" exact>
+          <Carousel/>
         </Route>
       </Switch>
     </Router>

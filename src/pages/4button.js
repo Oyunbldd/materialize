@@ -10,16 +10,14 @@ export default function FButton(){
      });
     },[drop])
     return(
-        <div class='container row '>
-       
-          
-<a class="waves-effect waves-light btn btn-large  blue col  col-content s6 l3" >CSS1</a>
+        <div class=' row s12 l12'>
+<a class="waves-effect waves-light btn btn-large  blue col  col-content s6 l1" >CSS1</a>
 
-<a class="waves-effect waves-light btn btn-large green   col s6 l3" >CSS2</a>
+<a class="waves-effect waves-light btn btn-large green   col s6 push-l3 l1" >CSS2</a>
 
-<a class="waves-effect waves-light btn btn-large  black-text yellow  col s6 l3">JS1</a>
+<a class="waves-effect waves-light btn btn-large  black-text yellow  col push-l5 s6 l1">JS1</a>
 
-<a class='dropdown-trigger btn btn-large  red text-white  col s6 l3'href='#' data-target='dropdown1' ref={drop} >Drop Me!</a>
+<a class='dropdown-trigger btn btn-large  red text-white  col push-l8 s6 l1'href='#' data-target='dropdown1' ref={drop} >Drop Me!</a>
 
   <ul id='dropdown1' class='dropdown-content'>
   <li><a href="#!">one</a></li>
